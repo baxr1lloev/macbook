@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.wrap {
+    height: 150vh;
+}
+
+.center-text {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.first_part {
+    padding: 40px 150px;
+    font-weight: bold;
+}
+
+.macbook_one{
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 400px;
+    height: 350px;
+    background-image: url(./img/mbp-silver-select-202206.jpg);
+    background-size: cover;
+}
+.macbook{
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 400px;
+    height: 350px;
+    background-image: url(./img/mbp-silver-select-202206.jpg);
+    background-size: cover;
+}
+.macbook_two {
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 400px;
+    height: 350px;
+    background-image: url(./img/mbp-spacegray-select-202206.jpg);
+    background-size: cover;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    left: 680px;
+    top: 260px;
+}
+
+.color {
+    color: #0071E3;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 20px;
+    left: 685px;
+    top: 330px;
+}
+
+.price {
+    
+    position: absolute;
+    font-weight: bolder;
+    font-size: 45px;
+    left: 685px;
+    top: 380px;
+}
+
+.maccbok_color {
+    background-color: #CFE7FF;
+    color: grey;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.new_color{
+    background-color: blue;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+}
+.White {
+    left: 520px;
+    top: 550px;
+}
+
+.Grey {
+    left: 670px;
+    top: 550px;
+}
+
+.to-choose {
+    margin-top: 120px;
+    margin-left: 390px;
+}
+
+.one{
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 250px;
+    height: 50px;
+}
+.two{
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 250px;
+    height: 50px;
+}
+.three{
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 250px;
+    height: 50px;
+}
+.four{
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 250px;
+    height: 50px;
+}
+
+.price_mc{
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 250px;
+    height: 50px;
+}
